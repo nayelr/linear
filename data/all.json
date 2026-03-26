@@ -177,7 +177,7 @@
         {
           "id": "a",
           "label": "1a",
-          "text": "If A and B are m\u00d7n matrices, then both AB^T and A^T B are defined.",
+          "text": "If A and B are m\u00d7n, then both AB^T and A^T B are defined.",
           "answer": true
         },
         {
@@ -207,7 +207,7 @@
         {
           "id": "f",
           "label": "1f",
-          "text": "If A and B are n\u00d7n matrices, then (A + B)(A \u2212 B) = A^2 \u2212 B^2.",
+          "text": "If A and B are n\u00d7n, then (A + B)(A \u2212 B) = A^2 \u2212 B^2.",
           "answer": false
         },
         {
@@ -255,19 +255,19 @@
         {
           "id": "n",
           "label": "1n",
-          "text": "If AB = BA and A is invertible, then A^-1 B = B A^-1.",
+          "text": "If AB = BA and if A is invertible, then A^-1 B = BA^-1.",
           "answer": true
         },
         {
           "id": "o",
           "label": "1o",
-          "text": "If A is invertible and r \u2260 0, then (rA)^-1 = r A^-1.",
+          "text": "If A is invertible and if r \u2260 0, then (rA)^-1 = rA^-1.",
           "answer": false
         },
         {
           "id": "p",
           "label": "1p",
-          "text": "If A is a 3\u00d73 matrix and the equation Ax = [0, 0, 1]^T has a unique solution, then A is invertible.",
+          "text": "If A is a 3\u00d73 matrix and the equation Ax = [1, 0, 0]^T has a unique solution, then A is invertible.",
           "answer": true
         }
       ]
