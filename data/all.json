@@ -131,7 +131,7 @@
         {
           "id": "u",
           "label": "1u",
-          "text": "If u, v, and w are nonzero vectors in R^3, then w is a linear combination of u and v.",
+          "text": "If u, v, and w are nonzero vectors in R^2, then w is a linear combination of u and v.",
           "answer": false
         },
         {
