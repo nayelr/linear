@@ -17,7 +17,7 @@
         {
           "id": "b",
           "label": "1b",
-          "text": "Any system of m linear equations in n variables has at most m solutions.",
+          "text": "Any system of n linear equations in n variables has at most n solutions.",
           "answer": false
         },
         {

@@ -7,7 +7,7 @@
   },
   "items": [
     { "id": "a", "label": "1a", "text": "Every matrix is row equivalent to a unique matrix in echelon form.", "answer": false },
-    { "id": "b", "label": "1b", "text": "Any system of m linear equations in n variables has at most m solutions.", "answer": false },
+    { "id": "b", "label": "1b", "text": "Any system of n linear equations in n variables has at most n solutions.", "answer": false },
     { "id": "c", "label": "1c", "text": "If a system of linear equations has two different solutions, it must have infinitely many solutions.", "answer": true },
     { "id": "d", "label": "1d", "text": "If a system of linear equations has no free variables, then it has a unique solution.", "answer": false },
     { "id": "e", "label": "1e", "text": "If an augmented matrix [A | b] is transformed into [C | d] by elementary row operations, then the equations Ax = b and Cx = d have exactly the same solution sets.", "answer": true },
