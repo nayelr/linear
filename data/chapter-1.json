@@ -24,7 +24,7 @@
     { "id": "p", "label": "1p", "text": "If A and B are row equivalent m×n matrices and if the columns of A span R^m, then so do the columns of B.", "answer": true },
     { "id": "q", "label": "1q", "text": "If none of the vectors in the set S = {v1, v2, v3} in R^3 is a multiple of one of the other vectors, then S is linearly independent.", "answer": false },
     { "id": "r", "label": "1r", "text": "If {u, v, w} is linearly independent, then u, v, and w are not in R^2.", "answer": true },
-    { "id": "s", "label": "1s", "text": "In some cases, it is possible for four vectors to span R^4.", "answer": false },
+    { "id": "s", "label": "1s", "text": "In some cases, it is possible for four vectors to span R^5.", "answer": false },
     { "id": "t", "label": "1t", "text": "If u and v are in R^n, then −u is in Span{u, v}.", "answer": true },
     { "id": "u", "label": "1u", "text": "If u, v, and w are nonzero vectors in R^3, then w is a linear combination of u and v.", "answer": false },
     { "id": "v", "label": "1v", "text": "If w is a linear combination of u and v in R^n, then u is a linear combination of v and w.", "answer": false },

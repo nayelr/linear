@@ -119,7 +119,7 @@
         {
           "id": "s",
           "label": "1s",
-          "text": "In some cases, it is possible for four vectors to span R^4.",
+          "text": "In some cases, it is possible for four vectors to span R^5.",
           "answer": false
         },
         {
