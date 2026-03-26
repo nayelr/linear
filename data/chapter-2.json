@@ -21,6 +21,6 @@
     { "id": "m", "label": "1m", "text": "If A and B are square and invertible, then AB is invertible, and (AB)^-1 = A^-1 B^-1.", "answer": false },
     { "id": "n", "label": "1n", "text": "If AB = BA and if A is invertible, then A^-1 B = BA^-1.", "answer": true },
     { "id": "o", "label": "1o", "text": "If A is invertible and if r ≠ 0, then (rA)^-1 = rA^-1.", "answer": false },
-    { "id": "p", "label": "1p", "text": "If A is a 3×3 matrix and the equation Ax = [1, 0, 0]^T has a unique solution, then A is invertible.", "answer": true }
+    { "id": "p", "label": "1p", "text": "If A is a 3×3 matrix and the equation Ax = [\n1\n0\n0\n] has a unique solution, then A is invertible.", "answer": true }
   ]
 }

@@ -63,7 +63,8 @@ function renderChapter(ch, container) {
 
     const p = document.createElement("p");
     p.className = "prompt";
-    p.innerHTML = esc(item.text);
+    // Preserve newlines in JSON text by turning them into <br/> for math-like formatting.
+    p.innerHTML = esc(item.text).replace(/\n/g, "<br/>");
 
     head.append(lab, p);
 

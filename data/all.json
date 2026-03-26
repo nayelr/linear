@@ -267,7 +267,7 @@
         {
           "id": "p",
           "label": "1p",
-          "text": "If A is a 3\u00d73 matrix and the equation Ax = [1, 0, 0]^T has a unique solution, then A is invertible.",
+          "text": "If A is a 3\u00d73 matrix and the equation Ax = [\n1\n0\n0\n] has a unique solution, then A is invertible.",
           "answer": true
         }
       ]
