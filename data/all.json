@@ -295,7 +295,7 @@
         {
           "id": "c",
           "label": "1c",
-          "text": "If A is a 3\u00d73 matrix, then det(5A) = 5 det A.",
+          "text": "If A is a 3\u00d73 matrix, then det 5A = 5 det A.",
           "answer": false
         },
         {
@@ -307,7 +307,7 @@
         {
           "id": "e",
           "label": "1e",
-          "text": "If A is n\u00d7n and det A = 2, then det A^4 = 6.",
+          "text": "If A is n\u00d7n and det A = 2, then det A^3 = 6.",
           "answer": false
         },
         {
@@ -319,7 +319,7 @@
         {
           "id": "g",
           "label": "1g",
-          "text": "If B is produced by multiplying row 3 of A by 5, then det B = 5 det A.",
+          "text": "If B is produced by multiplying row 3 of A by 5, then det B = 5 \u00b7 det A.",
           "answer": true
         },
         {
@@ -343,7 +343,7 @@
         {
           "id": "k",
           "label": "1k",
-          "text": "det(A^T A) > 0.",
+          "text": "det A^T A \u2265 0.",
           "answer": true
         },
         {
@@ -355,13 +355,13 @@
         {
           "id": "m",
           "label": "1m",
-          "text": "If u and v are in R^2 and det[u v] = 10, then the area of the triangle with vertices 0, u, and v is 10.",
+          "text": "If u and v are in R^2 and det [u  v] = 10, then the area of the triangle in the plane with vertices at 0, u, and v is 10.",
           "answer": false
         },
         {
           "id": "n",
           "label": "1n",
-          "text": "If A^2 = 0, then det A = 0.",
+          "text": "If A^3 = 0, then det A = 0.",
           "answer": true
         },
         {
