@@ -1,0 +1,512 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Chapter 1 \u2014 Supplementary exercises",
+      "meta": {
+        "pdfPage": 105,
+        "book": "Lay, Linear Algebra and Its Applications"
+      },
+      "items": [
+        {
+          "id": "a",
+          "label": "1a",
+          "text": "Every matrix is row equivalent to a unique matrix in echelon form.",
+          "answer": false
+        },
+        {
+          "id": "b",
+          "label": "1b",
+          "text": "Any system of m linear equations in n variables has at most m solutions.",
+          "answer": false
+        },
+        {
+          "id": "c",
+          "label": "1c",
+          "text": "If a system of linear equations has two different solutions, it must have infinitely many solutions.",
+          "answer": true
+        },
+        {
+          "id": "d",
+          "label": "1d",
+          "text": "If a system of linear equations has no free variables, then it has a unique solution.",
+          "answer": false
+        },
+        {
+          "id": "e",
+          "label": "1e",
+          "text": "If an augmented matrix [A | b] is transformed into [C | d] by elementary row operations, then the equations Ax = b and Cx = d have exactly the same solution sets.",
+          "answer": true
+        },
+        {
+          "id": "f",
+          "label": "1f",
+          "text": "If a system Ax = b has more than one solution, then so does the system Ax = 0.",
+          "answer": true
+        },
+        {
+          "id": "g",
+          "label": "1g",
+          "text": "If A is an m\u00d7n matrix and the equation Ax = b is consistent for some b, then the columns of A span R^m.",
+          "answer": false
+        },
+        {
+          "id": "h",
+          "label": "1h",
+          "text": "If an augmented matrix [A | b] can be transformed by elementary row operations into reduced echelon form, then the equation Ax = b is consistent.",
+          "answer": false
+        },
+        {
+          "id": "i",
+          "label": "1i",
+          "text": "If matrices A and B are row equivalent, they have the same reduced echelon form.",
+          "answer": true
+        },
+        {
+          "id": "j",
+          "label": "1j",
+          "text": "The equation Ax = 0 has the trivial solution if and only if there are no free variables.",
+          "answer": false
+        },
+        {
+          "id": "k",
+          "label": "1k",
+          "text": "If A is an m\u00d7n matrix and the equation Ax = b is consistent for every b in R^m, then A has m pivot columns.",
+          "answer": true
+        },
+        {
+          "id": "l",
+          "label": "1l",
+          "text": "If an m\u00d7n matrix A has a pivot position in every row, then the equation Ax = b has a unique solution for each b in R^m.",
+          "answer": false
+        },
+        {
+          "id": "m",
+          "label": "1m",
+          "text": "If an n\u00d7n matrix A has n pivot positions, then the reduced echelon form of A is the n\u00d7n identity matrix.",
+          "answer": true
+        },
+        {
+          "id": "n",
+          "label": "1n",
+          "text": "If 3\u00d73 matrices A and B each have three pivot positions, then A can be transformed into B by elementary row operations.",
+          "answer": true
+        },
+        {
+          "id": "o",
+          "label": "1o",
+          "text": "If A is an m\u00d7n matrix, if the equation Ax = b has at least two different solutions, and if the equation Ax = c is consistent, then the equation Ax = c has many solutions.",
+          "answer": true
+        },
+        {
+          "id": "p",
+          "label": "1p",
+          "text": "If A and B are row equivalent m\u00d7n matrices and if the columns of A span R^m, then so do the columns of B.",
+          "answer": true
+        },
+        {
+          "id": "q",
+          "label": "1q",
+          "text": "If none of the vectors in the set S = {v1, v2, v3} in R^3 is a multiple of one of the other vectors, then S is linearly independent.",
+          "answer": false
+        },
+        {
+          "id": "r",
+          "label": "1r",
+          "text": "If {u, v, w} is linearly independent, then u, v, and w are not in R^2.",
+          "answer": true
+        },
+        {
+          "id": "s",
+          "label": "1s",
+          "text": "In some cases, it is possible for four vectors to span R^4.",
+          "answer": false
+        },
+        {
+          "id": "t",
+          "label": "1t",
+          "text": "If u and v are in R^n, then \u2212u is in Span{u, v}.",
+          "answer": true
+        },
+        {
+          "id": "u",
+          "label": "1u",
+          "text": "If u, v, and w are nonzero vectors in R^3, then w is a linear combination of u and v.",
+          "answer": false
+        },
+        {
+          "id": "v",
+          "label": "1v",
+          "text": "If w is a linear combination of u and v in R^n, then u is a linear combination of v and w.",
+          "answer": false
+        },
+        {
+          "id": "w",
+          "label": "1w",
+          "text": "Suppose that v1, v2, and v3 are in R^5, v3 is not a multiple of v1, and v3 is not a linear combination of v1 and v2. Then {v1, v2, v3} is linearly independent.",
+          "answer": false
+        },
+        {
+          "id": "x",
+          "label": "1x",
+          "text": "A linear transformation is a function.",
+          "answer": true
+        },
+        {
+          "id": "y",
+          "label": "1y",
+          "text": "If A is a 6\u00d75 matrix, the linear transformation x \u21a6 Ax cannot map R^5 onto R^6.",
+          "answer": true
+        },
+        {
+          "id": "z",
+          "label": "1z",
+          "text": "If A is an m\u00d7n matrix with m pivot columns, then the linear transformation x \u21a6 Ax is a one-to-one mapping.",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chapter 2 \u2014 Supplementary exercises",
+      "meta": {
+        "pdfPage": 177,
+        "book": "Lay, Linear Algebra and Its Applications"
+      },
+      "items": [
+        {
+          "id": "a",
+          "label": "1a",
+          "text": "If A and B are m\u00d7n matrices, then both AB^T and A^T B are defined.",
+          "answer": true
+        },
+        {
+          "id": "b",
+          "label": "1b",
+          "text": "If AB = C and C has 2 columns, then A has 2 columns.",
+          "answer": false
+        },
+        {
+          "id": "c",
+          "label": "1c",
+          "text": "Left-multiplying a matrix B by a diagonal matrix A, with nonzero entries on the diagonal, scales the rows of B.",
+          "answer": true
+        },
+        {
+          "id": "d",
+          "label": "1d",
+          "text": "If BC = BD, then C = D.",
+          "answer": false
+        },
+        {
+          "id": "e",
+          "label": "1e",
+          "text": "If AC = 0, then either A = 0 or C = 0.",
+          "answer": false
+        },
+        {
+          "id": "f",
+          "label": "1f",
+          "text": "If A and B are n\u00d7n matrices, then (A + B)(A \u2212 B) = A^2 \u2212 B^2.",
+          "answer": false
+        },
+        {
+          "id": "g",
+          "label": "1g",
+          "text": "An elementary n\u00d7n matrix has either n or n+1 nonzero entries.",
+          "answer": true
+        },
+        {
+          "id": "h",
+          "label": "1h",
+          "text": "The transpose of an elementary matrix is an elementary matrix.",
+          "answer": true
+        },
+        {
+          "id": "i",
+          "label": "1i",
+          "text": "An elementary matrix must be square.",
+          "answer": true
+        },
+        {
+          "id": "j",
+          "label": "1j",
+          "text": "Every square matrix is a product of elementary matrices.",
+          "answer": false
+        },
+        {
+          "id": "k",
+          "label": "1k",
+          "text": "If A is a 3\u00d73 matrix with three pivot positions, there exist elementary matrices E1,\u2026,Ep such that Ep\u22efE1A = I.",
+          "answer": true
+        },
+        {
+          "id": "l",
+          "label": "1l",
+          "text": "If AB = I, then A is invertible.",
+          "answer": false
+        },
+        {
+          "id": "m",
+          "label": "1m",
+          "text": "If A and B are square and invertible, then AB is invertible, and (AB)^-1 = A^-1 B^-1.",
+          "answer": false
+        },
+        {
+          "id": "n",
+          "label": "1n",
+          "text": "If AB = BA and A is invertible, then A^-1 B = B A^-1.",
+          "answer": true
+        },
+        {
+          "id": "o",
+          "label": "1o",
+          "text": "If A is invertible and r \u2260 0, then (rA)^-1 = r A^-1.",
+          "answer": false
+        },
+        {
+          "id": "p",
+          "label": "1p",
+          "text": "If A is a 3\u00d73 matrix and the equation Ax = [0, 0, 1]^T has a unique solution, then A is invertible.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Chapter 3 \u2014 Supplementary exercises",
+      "meta": {
+        "pdfPage": 202,
+        "book": "Lay, Linear Algebra and Its Applications"
+      },
+      "items": [
+        {
+          "id": "a",
+          "label": "1a",
+          "text": "If A is a 2\u00d72 matrix with a zero determinant, then one column of A is a multiple of the other.",
+          "answer": true
+        },
+        {
+          "id": "b",
+          "label": "1b",
+          "text": "If two rows of a 3\u00d73 matrix A are the same, then det A = 0.",
+          "answer": true
+        },
+        {
+          "id": "c",
+          "label": "1c",
+          "text": "If A is a 3\u00d73 matrix, then det(5A) = 5 det A.",
+          "answer": false
+        },
+        {
+          "id": "d",
+          "label": "1d",
+          "text": "If A and B are n\u00d7n matrices, with det A = 2 and det B = 3, then det(A + B) = 5.",
+          "answer": false
+        },
+        {
+          "id": "e",
+          "label": "1e",
+          "text": "If A is n\u00d7n and det A = 2, then det A^4 = 6.",
+          "answer": false
+        },
+        {
+          "id": "f",
+          "label": "1f",
+          "text": "If B is produced by interchanging two rows of A, then det B = det A.",
+          "answer": false
+        },
+        {
+          "id": "g",
+          "label": "1g",
+          "text": "If B is produced by multiplying row 3 of A by 5, then det B = 5 det A.",
+          "answer": true
+        },
+        {
+          "id": "h",
+          "label": "1h",
+          "text": "If B is formed by adding to one row of A a linear combination of the other rows, then det B = det A.",
+          "answer": true
+        },
+        {
+          "id": "i",
+          "label": "1i",
+          "text": "det A^T = \u2212det A.",
+          "answer": false
+        },
+        {
+          "id": "j",
+          "label": "1j",
+          "text": "det(\u2212A) = \u2212det A.",
+          "answer": false
+        },
+        {
+          "id": "k",
+          "label": "1k",
+          "text": "det(A^T A) > 0.",
+          "answer": true
+        },
+        {
+          "id": "l",
+          "label": "1l",
+          "text": "Any system of n linear equations in n variables can be solved by Cramer\u2019s rule.",
+          "answer": false
+        },
+        {
+          "id": "m",
+          "label": "1m",
+          "text": "If u and v are in R^2 and det[u v] = 10, then the area of the triangle with vertices 0, u, and v is 10.",
+          "answer": false
+        },
+        {
+          "id": "n",
+          "label": "1n",
+          "text": "If A^2 = 0, then det A = 0.",
+          "answer": true
+        },
+        {
+          "id": "o",
+          "label": "1o",
+          "text": "If A is invertible, then det A^\u22121 = det A.",
+          "answer": false
+        },
+        {
+          "id": "p",
+          "label": "1p",
+          "text": "If A is invertible, then (det A)(det A^\u22121) = 1.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chapter 4 \u2014 Supplementary exercises",
+      "meta": {
+        "pdfPage": 279,
+        "book": "Lay, Linear Algebra and Its Applications"
+      },
+      "items": [
+        {
+          "id": "a",
+          "label": "1a",
+          "text": "The set of all linear combinations of v1,\u2026,vp is a vector space.",
+          "answer": true
+        },
+        {
+          "id": "b",
+          "label": "1b",
+          "text": "If {v1,\u2026,vp\u22121} spans V, then S spans V.",
+          "answer": true
+        },
+        {
+          "id": "c",
+          "label": "1c",
+          "text": "If {v1,\u2026,vp\u22121} is linearly independent, then so is S.",
+          "answer": false
+        },
+        {
+          "id": "d",
+          "label": "1d",
+          "text": "If S is linearly independent, then S is a basis for V.",
+          "answer": false
+        },
+        {
+          "id": "e",
+          "label": "1e",
+          "text": "If Span S = V, then some subset of S is a basis for V.",
+          "answer": true
+        },
+        {
+          "id": "f",
+          "label": "1f",
+          "text": "If dim V = p and Span S = V, then S cannot be linearly dependent.",
+          "answer": true
+        },
+        {
+          "id": "g",
+          "label": "1g",
+          "text": "A plane in R^3 is a two-dimensional subspace.",
+          "answer": false
+        },
+        {
+          "id": "h",
+          "label": "1h",
+          "text": "The nonpivot columns of a matrix are always linearly dependent.",
+          "answer": false
+        },
+        {
+          "id": "i",
+          "label": "1i",
+          "text": "Row operations on a matrix A can change the linear dependence relations among the rows of A.",
+          "answer": true
+        },
+        {
+          "id": "j",
+          "label": "1j",
+          "text": "Row operations on a matrix can change the null space.",
+          "answer": false
+        },
+        {
+          "id": "k",
+          "label": "1k",
+          "text": "The rank of a matrix equals the number of nonzero rows.",
+          "answer": false
+        },
+        {
+          "id": "l",
+          "label": "1l",
+          "text": "If an m\u00d7n matrix A is row equivalent to an echelon matrix U and if U has k nonzero rows, then the dimension of the solution space of Ax = 0 is m \u2212 k.",
+          "answer": false
+        },
+        {
+          "id": "m",
+          "label": "1m",
+          "text": "If B is obtained from a matrix A by several elementary row operations, then rank B = rank A.",
+          "answer": true
+        },
+        {
+          "id": "n",
+          "label": "1n",
+          "text": "The nonzero rows of a matrix A form a basis for Row A.",
+          "answer": false
+        },
+        {
+          "id": "o",
+          "label": "1o",
+          "text": "If matrices A and B have the same reduced echelon form, then Row A = Row B.",
+          "answer": true
+        },
+        {
+          "id": "p",
+          "label": "1p",
+          "text": "If H is a subspace of R^3, then there is a 3\u00d73 matrix A such that H = Col A.",
+          "answer": true
+        },
+        {
+          "id": "q",
+          "label": "1q",
+          "text": "If A is m\u00d7n and rank A = m, then the linear transformation x \u21a6 Ax is one-to-one.",
+          "answer": false
+        },
+        {
+          "id": "r",
+          "label": "1r",
+          "text": "If A is m\u00d7n and the linear transformation x \u21a6 Ax is onto, then rank A = m.",
+          "answer": true
+        },
+        {
+          "id": "s",
+          "label": "1s",
+          "text": "A change-of-coordinates matrix is always invertible.",
+          "answer": true
+        },
+        {
+          "id": "t",
+          "label": "1t",
+          "text": "If B = {b1,\u2026,bn} and C = {c1,\u2026,cn} are bases for a vector space V, then the jth column of the change-of-coordinates matrix PC\u2190B is the coordinate vector [cj]B.",
+          "answer": false
+        }
+      ]
+    }
+  ]
+}
