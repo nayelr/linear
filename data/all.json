@@ -35,7 +35,7 @@
         {
           "id": "e",
           "label": "1e",
-          "text": "If an augmented matrix [A | b] is transformed into [C | d] by elementary row operations, then the equations Ax = b and Cx = d have exactly the same solution sets.",
+          "text": "If an augmented matrix [A  b] is transformed into [C  d] by elementary row operations, then the equations Ax = b and Cx = d have exactly the same solution sets.",
           "answer": true
         },
         {
@@ -53,7 +53,7 @@
         {
           "id": "h",
           "label": "1h",
-          "text": "If an augmented matrix [A | b] can be transformed by elementary row operations into reduced echelon form, then the equation Ax = b is consistent.",
+          "text": "If an augmented matrix [A  b] can be transformed by elementary row operations into reduced echelon form, then the equation Ax = b is consistent.",
           "answer": false
         },
         {
@@ -125,7 +125,7 @@
         {
           "id": "t",
           "label": "1t",
-          "text": "If u and v are in R^n, then \u2212u is in Span{u, v}.",
+          "text": "If u and v are in R^m, then \u2212u is in Span{u, v}.",
           "answer": true
         },
         {
@@ -143,7 +143,7 @@
         {
           "id": "w",
           "label": "1w",
-          "text": "Suppose that v1, v2, and v3 are in R^5, v3 is not a multiple of v1, and v3 is not a linear combination of v1 and v2. Then {v1, v2, v3} is linearly independent.",
+          "text": "Suppose that v1, v2, and v3 are in R^5, v2 is not a multiple of v1, and v3 is not a linear combination of v1 and v2. Then {v1, v2, v3} is linearly independent.",
           "answer": false
         },
         {
