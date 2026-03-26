@@ -385,6 +385,12 @@
         "pdfPage": 279,
         "book": "Lay, Linear Algebra and Its Applications"
       },
+      "preambles": [
+        {
+          "beforeItem": "a",
+          "text": "In parts (a)\u2013(f), v1, \u2026, vp are vectors in a nonzero finite-dimensional vector space V, and S = {v1, \u2026, vp}."
+        }
+      ],
       "items": [
         {
           "id": "a",

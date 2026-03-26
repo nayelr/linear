@@ -5,6 +5,12 @@
     "pdfPage": 279,
     "book": "Lay, Linear Algebra and Its Applications"
   },
+  "preambles": [
+    {
+      "beforeItem": "a",
+      "text": "In parts (a)–(f), v1, …, vp are vectors in a nonzero finite-dimensional vector space V, and S = {v1, …, vp}."
+    }
+  ],
   "items": [
     { "id": "a", "label": "1a", "text": "The set of all linear combinations of v1,…,vp is a vector space.", "answer": true },
     { "id": "b", "label": "1b", "text": "If {v1,…,vp−1} spans V, then S spans V.", "answer": true },

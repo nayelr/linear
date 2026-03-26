@@ -33,7 +33,23 @@ function renderChapter(ch, container) {
 
   container.append(h2, meta);
 
+  // Build a lookup of preambles keyed by the item they appear before
+  const preambleMap = {};
+  if (ch.preambles) {
+    ch.preambles.forEach((pr) => {
+      preambleMap[pr.beforeItem] = pr.text;
+    });
+  }
+
   ch.items.forEach((item) => {
+    // Render preamble callout if one starts at this item
+    if (preambleMap[item.id]) {
+      const note = document.createElement("div");
+      note.className = "preamble";
+      note.textContent = preambleMap[item.id];
+      container.append(note);
+    }
+
     const card = document.createElement("article");
     card.className = "card";
     card.dataset.answer = String(item.answer);
