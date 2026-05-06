@@ -1,4 +1,12 @@
-const DATA = ["data/chapter-1.json", "data/chapter-2.json", "data/chapter-3.json", "data/chapter-4.json"];
+const DATA = [
+  "data/chapter-1.json",
+  "data/chapter-2.json",
+  "data/chapter-3.json",
+  "data/chapter-4.json",
+  "data/chapter-5.json",
+  "data/chapter-6.json",
+  "data/chapter-7.json",
+];
 
 async function loadChapters() {
   const results = await Promise.all(

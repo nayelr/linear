@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 out = {"chapters": []}
-for n in range(1, 5):
+for n in range(1, 8):
     p = ROOT / "data" / f"chapter-{n}.json"
     with open(p, encoding="utf-8") as f:
         out["chapters"].append(json.load(f))

@@ -11,10 +11,10 @@ Then visit `http://localhost:8765`.
 
 ## Data
 
-- Question text was aligned to the PDF (Chapter 1 exercises on **page 105**; other chapters: 177, 202–203, 279–280).
+- Question text was aligned to the PDF (Chapter 1 exercises on **page 105**; other chapters: 177, 202–203, 279–280, 326, 390, 432).
 - Answers match the provided answer-key images.
 
-To change answers or wording, edit `data/chapter-1.json` … `data/chapter-4.json` (see `docs/data-schema.md`).
+To change answers or wording, edit `data/chapter-1.json` … `data/chapter-7.json` (see `docs/data-schema.md`).
 
 ## Optional: regenerate combined JSON
 

@@ -15,8 +15,8 @@ Each file is one chapter’s **Supplementary Exercises**, problem **1** (True/Fa
 }
 ```
 
-- `id` — chapter number (1–4).
-- `items[].id` — lowercase part letter (`a`–`z` or `a`–`t` depending on chapter).
+- `id` — chapter number (1–7).
+- `items[].id` — lowercase part letter (varies by chapter).
 - `items[].label` — display id (e.g. `1a`).
 - `items[].text` — statement only (no “True or False” suffix).
 - `items[].answer` — `true` if the statement is **mathematically true**, `false` otherwise (matches the answer key).
@@ -29,3 +29,6 @@ Each file is one chapter’s **Supplementary Exercises**, problem **1** (True/Fa
 | `chapter-2.json` | a–p | 177 (all of problem 1 on this page) |
 | `chapter-3.json` | a–p | 202–203 |
 | `chapter-4.json` | a–t | 279–280 |
+| `chapter-5.json` | a–x | 326 |
+| `chapter-6.json` | a–s | 390 |
+| `chapter-7.json` | a–q | 432 |
